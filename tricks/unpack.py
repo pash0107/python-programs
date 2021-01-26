@@ -1,0 +1,11 @@
+a, b, *c, d = (1,2,3,4,5)
+print(a)
+print(b)
+print(c)
+print(d)
+
+a, b, *_, d = (1,2,3,4,5)
+print(a)
+print(b)
+# print(c)
+print(d)
